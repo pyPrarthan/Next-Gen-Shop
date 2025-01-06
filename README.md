@@ -14,7 +14,7 @@ This is an e-commerce application built using the MERN (MongoDB, Express.js, Rea
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/mern-stack-project.git
+   git clone https://github.com/pyPrarthan/mern-stack-project.git
    ```
 2. Install dependencies for both frontend and backend:
    ```bash
