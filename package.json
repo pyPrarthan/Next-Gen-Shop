@@ -1,0 +1,18 @@
+{
+  "name": "next-gen-shop",
+  "version": "1.0.0",
+  "description": "This is an e-commerce application built using the MERN (MongoDB, Express.js, React, Node.js) stack. This project follows the tutorial [linked here](https://www.youtube.com/watch?v=O3BUHwfHf84&t=206s).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3"
+  }
+}
