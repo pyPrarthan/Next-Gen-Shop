@@ -4,7 +4,8 @@ import path from "path";
 
 import { connectDB } from "./config/db.js";
 
-import productRoutes from "./routes/product.route.js";
+import productRoute from "./routes/productRoute.js";
+
 
 dotenv.config();
 
