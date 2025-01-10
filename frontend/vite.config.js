@@ -9,7 +9,7 @@ export default defineConfig({
   },
   server: {
     proxy: {
-      "/api": "https://next-gen-shop.onrender.com",
+      "/api": "https://next-gen-shop.onrender.com", // Replace with actual backend URL
     },
   },
 });
