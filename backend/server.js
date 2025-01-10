@@ -1,8 +1,8 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import path from 'path';
-import { connectDB } from './config/db.js';
-import productRoute from './routes/productRoute.js';
+import express from "express";
+import dotenv from "dotenv";
+import path from "path";
+import { connectDB } from "./config/db.js";
+import productRoute from "./routes/productRoute.js";
 
 dotenv.config();
 
@@ -11,24 +11,30 @@ const PORT = process.env.PORT || 5000;
 
 const __dirname = path.resolve();
 
-app.get('/', (req, res)=>{
-    res.send('Server is ready');
-})
+// Basic test route to check server status
+app.get("/", (req, res) => {
+  res.send("Server is ready");
+});
 
-app.use(express.json()); //middleware to parse json data
+// Middleware to parse JSON data
+app.use(express.json());
 
-app.use('/api/products', productRoute);
+// API routes
+app.use("/api/products", productRoute);
 
-if(process.env.NODE_ENV === 'production'){
-    app.use(express.static(path.join(__dirname, '/frontend/dist')));
+// Serve frontend in production
+if (process.env.NODE_ENV === "production") {
+  // Serve static files from the frontend build directory
+  app.use(express.static(path.join(__dirname, "frontend", "dist")));
 
-    app.get('*', (req, res)=>{
-        res.sendFile(path.resolve(__dirname, 'frontend', 'dist', 'index.html'));
-    })
+  // Serve the index.html for any unmatched routes
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
+  });
 }
 
-
-app.listen(PORT, ()=>{
-    connectDB();
-    console.log('Server is running on port http://localhost:' + PORT);
-}) 
+// Start server and connect to the database
+app.listen(PORT, () => {
+  connectDB();
+  console.log(`Server is running on port http://localhost:${PORT}`);
+});
