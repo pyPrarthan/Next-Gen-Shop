@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import path from "path";
 import cors from "cors";
 import { connectDB } from "./config/db.js";
-import productRoute from "./routes/productRoute.js"; // Ensure correct path
+import productRoute from "./routes/productRoute.js"; // Ensure this name matches the import
 
 dotenv.config();
 
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 app.use(express.json());
 
 // API Routes
-app.use("/api/products", productRoute);
+app.use("/api/products", productRoute); // Use the correct route name
 
 // Serve frontend in production
 if (process.env.NODE_ENV === "production") {
