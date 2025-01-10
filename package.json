@@ -1,11 +1,11 @@
 {
-  "name": "next-gen-shop",
+  "name": "mern-crash-course",
   "version": "1.0.0",
-  "description": "This is an e-commerce application built using the MERN (MongoDB, Express.js, React, Node.js) stack. This project follows the tutorial [linked here](https://www.youtube.com/watch?v=O3BUHwfHf84&t=206s).",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon backend/server.js",
-    "build": "npm install && npm run install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "NODE_ENV=production node backend/server.js"
   },
   "type": "module",
@@ -13,11 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.3"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.4"
   }
 }
