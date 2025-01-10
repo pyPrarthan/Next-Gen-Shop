@@ -16,9 +16,9 @@ const __dirname = path.resolve();
 app.use(cors());
 
 // Basic route to test server
-app.get("/", (req, res) => {
-  res.send("Server is ready");
-});
+// app.get("/", (req, res) => {
+//   res.send("Server is ready");
+// });
 
 // Middleware to parse JSON data
 app.use(express.json());
