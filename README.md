@@ -72,7 +72,7 @@ Welcome to **Next-Gen-Shop**, a modern e-commerce platform built with the powerf
 ## :camera_flash: **Demo** 
 
 Check out the **Next-Gen-Shop** live project hosted on **Netlify**!  
-[**View the live project here!**](https://your-netlify-link) 🎉
+[**View the live project here!**](https://next-gen-shop.onrender.com/) 🎉
 
 *Live demo showcasing the shopping cart functionality.*
 
