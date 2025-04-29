@@ -78,22 +78,6 @@ Check out the **Next-Gen-Shop** live project hosted on **Netlify**!
 
 ---
 
-## :memo: **How It Works**
-
-### 1. **User Authentication:**
-   - Users can sign up, log in, and manage their profiles.
-   - Passwords are securely hashed using bcrypt.
-
-### 2. **Product Browsing:**
-   - Browse products across different categories.
-   - Product pages display detailed information with images, prices, and descriptions.
-
-### 3. **Shopping Cart:**
-   - Add products to your cart and checkout seamlessly.
-   - Cart updates in real-time as you add or remove products.
-
----
-
 ## :wrench: **Development Tips**
 
 - **Backend Development:**
@@ -114,29 +98,6 @@ Check out the **Next-Gen-Shop** live project hosted on **Netlify**!
 ## :sparkling_heart: **Contribute**
 
 We welcome contributions! If you'd like to improve or suggest changes to the project, feel free to fork the repo, make your changes, and create a pull request. 🙌
-
----
-
-## :trophy: **Screenshots**
-
-Here are some cool screenshots of the app in action! 📸
-
-- **Product List Page**  
-  ![Product List](https://via.placeholder.com/600x400.png)
-  
-- **Product Detail Page**  
-  ![Product Detail](https://via.placeholder.com/600x400.png)
-
-- **Shopping Cart**  
-  ![Shopping Cart](https://via.placeholder.com/600x400.png)
-
----
-
-## :bulb: **Future Features**
-
-- Integration of **Stripe** for payment processing. 💳  
-- **Admin Panel** to manage products and orders. 👨‍💻  
-- **Search and Filter** products by category, price, and rating. 🔍  
 
 ---
 
